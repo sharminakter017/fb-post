@@ -165,7 +165,7 @@ all_post.onclick = (e) => {
         console.log(indexs)
         let lstoragedata = readLsData('fb_post');
 
-        let edit_data = lstoragedata.find(data => {data.id == indexs});
+        let edit_data = lstoragedata.find(data => data.id == indexs);
        
 
           let {aname,aphoto,pcontent,pphoto,id} =  edit_data;
